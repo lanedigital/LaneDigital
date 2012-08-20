@@ -2,6 +2,154 @@
    Media Queries
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-	/* Style adjustments for viewports that meet the condition */
+/*Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-width : 320px)
+and (max-width : 480px) {
+/* Styles */
+	.social{
+		text-align: center;
+	}
+	
+	.social ul{
+		text-align: center;
+		display: inline-block;
+	}
+	.social ul li{
+		text-align: center;
+	}
+	
+	.trading p{
+		float:none;
+		text-align: center;
+	}
 }
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 321px)
+and (max-width : 768px) {
+/* Styles */
+	.social{
+		text-align: center;
+	}
+	
+	.social ul{
+		text-align: center;
+		display: inline-block;
+	}
+	.social ul li{
+		text-align: center;
+	}
+	
+	.trading p{
+		float:none;
+		text-align: center;
+	}
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 320px) {
+/* Styles */
+	.social{
+		text-align: center;
+	}
+	
+	.social ul{
+		text-align: center;
+		display: inline-block;
+	}
+	.social ul li{
+		text-align: center;
+	}
+	
+	.trading p{
+		float:none;
+		text-align: center;
+	}
+}
+
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-width : 768px)
+and (max-width : 1024px)
+and (orientation : portrait) {
+/* Styles */
+	.social{
+		text-align: center;
+	}
+	
+	.social ul{
+		text-align: center;
+		display: inline-block;
+	}
+	.social ul li{
+		text-align: center;
+	}
+	
+	.trading p{
+		float:none;
+		text-align: center;
+	}
+
+}
+
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 960px) {
+/* Styles */
+
+*{
+	
+font-family: 'Open Sans', sans-serif;
+}
+body{
+	background: #fbfaf7 url('../../img/bg_pattern.png') repeat center top;
+}
+
+.logo{
+	text-align: center;
+	margin: 20px 0;
+}
+
+h1 {
+	
+	color: red;
+}
+
+p{
+	text-align: center;
+}
+
+.social{
+}
+.social ul{
+	list-style-type: none;
+}
+.social ul li{
+	float:left;
+	margin-right:10px;
+}
+
+.trading{
+	float:right;
+}
+.trading p{
+	text-align: right;
+	font-size: small;
+	vertical-align: bottom;
+	margin-top: 40px;
+}
+
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 2),
+only screen and (min-device-pixel-ratio : 2) {
+/* Styles */
+}
+@media screen and (max-width: 320px) {
+
+}
+
